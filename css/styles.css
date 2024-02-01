@@ -75,7 +75,7 @@ address {
     background-color: #2e2f42;
 }
 
-.title .title-h1 {
+.title .title-header {
     color: var(--WHITE, #FFF);
     text-align: center;
     /* Header 1 */
@@ -104,7 +104,7 @@ address {
     cursor: pointer;
 }
 
-.advantages-h3 {
+.advantages-title {
     color: var(--NAVY-BLUE, #2E2F42);
     /* Header 3 */
     font-size: 20px;
