@@ -49,7 +49,7 @@ ul {
 }
 
 .nav-link:hover,
-.nav-link:active {
+.nav-link:focus {
     color: #404BBF;
 }
 
@@ -83,7 +83,7 @@ address {
     font-weight: 700;
     line-height: 1.07;
     /* 60px 107.143% */
-    letter-spacing: 1.12px;
+    letter-spacing: 0.02em;
 }
 
 .title .title-button {
@@ -92,7 +92,7 @@ address {
     font-weight: 500;
     line-height: 1.5;
     /* 24px 150% */
-    letter-spacing: 0.64px;
+    letter-spacing: 0.04em;
     background-color: #4D5AE5;
     cursor: pointer;
 }
