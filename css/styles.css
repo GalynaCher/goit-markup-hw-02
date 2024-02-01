@@ -52,11 +52,14 @@ ul {
     color: #404BBF;
 }
 
+.address {
+    font-style: normal;
+}
 
 .address .link {
     /* Body */
     color: var(--SLATE, #434455);
-    font-style: normal;
+    /*font-style: normal;*/
     line-height: 1.5;
     /*24px 150% */
     letter-spacing: 0.32px;
@@ -71,7 +74,7 @@ ul {
     background-color: #2e2f42;
 }
 
-.title .h1 {
+.title .title-h1 {
     color: var(--WHITE, #FFF);
     text-align: center;
     /* Header 1 */
@@ -82,7 +85,7 @@ ul {
     letter-spacing: 1.12px;
 }
 
-.title .button {
+.title .title-button {
     color: var(--WHITE, #FFF);
     /* Button Text */
     font-weight: 500;
@@ -93,28 +96,30 @@ ul {
     cursor: pointer;
 }
 
-.title .button:hover,
-.title .button:focus,
-.title .button:active {
+.title .title-button:hover,
+.title .title-button:focus,
+.title .title-button:active {
     background-color: #404BBF;
     cursor: pointer;
 }
 
-.advantages-h3 {
+.advantages .advantages-h3 {
     color: var(--NAVY-BLUE, #2E2F42);
     /* Header 3 */
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     /* 24px 120% */
-    letter-spacing: 0.4px;
+    letter-spacing: 0.02em;
 }
 
-.advantages p {
+.advantages .advantages-p {
     /* Body */
+    color: #434455;
+    font-size: 16px;
     line-height: 1.5;
     /* 24px 150% */
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
 }
 
 .team {
