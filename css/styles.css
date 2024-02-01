@@ -17,7 +17,7 @@ ul {
 }
 
 /* Стилі для лого */
-.nav-web-studio {
+.logo {
     color: var(--IRIS, #4D5AE5);
     font-family: Raleway, sans-serif;
     font-size: 18px;
@@ -29,22 +29,23 @@ ul {
 }
 
 /* Стилі для частини "Studio" */
-.nav-web-studio .studio {
+.logo .studio {
     color: var(--NAVY-BLUE, #2E2F42);
 }
 
-.nav-web-studio:focus {
+.logo:focus {
     color: #404bbf;
 }
 
 .nav-link {
     color: var(--NAVY-BLUE, #2E2F42);
     /* Body Medium */
+    font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: 1.5;
     /*24px 150% */
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
 }
 
 .nav-link:hover,
@@ -52,7 +53,7 @@ ul {
     color: #404BBF;
 }
 
-.address {
+address {
     font-style: normal;
 }
 
@@ -103,7 +104,7 @@ ul {
     cursor: pointer;
 }
 
-.advantages .advantages-h3 {
+.advantages-h3 {
     color: var(--NAVY-BLUE, #2E2F42);
     /* Header 3 */
     font-size: 20px;
@@ -113,7 +114,7 @@ ul {
     letter-spacing: 0.02em;
 }
 
-.advantages .advantages-p {
+.advantages-p {
     /* Body */
     color: #434455;
     font-size: 16px;
